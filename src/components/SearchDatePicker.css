@@ -1,0 +1,60 @@
+/* Date filter styling sheet*/
+.Search{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: left;
+}
+
+.Search label{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+/* DatePicker component styling
+Referred to
+https://github.com/Hacker0x01/react-datepicker/blob/master/src/stylesheets/datepicker.scss 
+for custom styling
+*/
+.react-datepicker-wrapper>.react-datepicker__input-container input {
+    
+    width: 30% !important;
+    float: left;
+}
+
+.react-datepicker {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: white;
+    color: #FFFFFF;
+    border: 4px;
+    border-radius: 4px;
+    border-color: black;
+    display: inline-block;
+    position: relative;
+    
+  }
+  .react-datepicker__header {
+    text-align: center;
+    background-color: white;
+    border-bottom: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-color: black;
+    padding-top: 8px;
+    position: relative;
+  
+  }
+  .react-datepicker__today-button {
+    background: #6897cc;
+    border-top: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    clear: left;
+  }
+
+  .react-datepicker__day--selected {
+    background: #1648c3 !important;
+  }

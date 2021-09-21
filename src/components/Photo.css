@@ -1,0 +1,34 @@
+
+/* Photo component styling sheet*/
+.Photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  background-color: #ece7e7;
+  width: 100%;
+}
+/*img styling*/
+.Photo img {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  object-fit: cover;
+  object-position: 50% 50%; /*this makes sure to maintain the aspect ratio*/
+}
+/*Title styling*/
+.Photo h5 {
+  line-height: 0rem;
+  margin: 6px;
+  word-wrap: break-word;
+  color: blueviolet;
+}
+/*Date styling*/
+.Photo h6 {
+  line-height: 5px;
+  margin: 5px;
+  height: auto;
+  color: black;
+}

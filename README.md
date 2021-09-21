@@ -1,3 +1,7 @@
+# The Spacebook
+
+This project,The Spacebook, allows you to query NASA picture of the day API(APOD) for images within the selcted date range.Take it for a spin and indulge _the aspiring astronaut within you_.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,27 @@
+/* Display Images styling sheet where images are
+diplayed in display flex mode.
+TODO: Fill the whole page background to black. Currently it stretches with the images.*/
+
+.DisplayImages{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+   margin: 5px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background-color: black;
+}
+
+.DisplayImages div{
+    height: 100%;
+}
+
+.DisplayImagesErr{
+    background-color: black;
+    height: 100%;
+    color: red;
+}
+
+
+
+
